@@ -1,0 +1,49 @@
+                           +-------------------+
+                           |    Book List      |
+                           +-------------------+
+                           | - Booking ID      |
+                           | - User ID         |
+                           | - Package ID      |
+                           | - Date            |
+                           | - Status          |
+                           +-------------------+
+                                    |
+                                    | Book a Package
+                                    |
+                                    V
++-------------------+       +-------------------+
+|      Users        |       |      Packages     |
++-------------------+       +-------------------+
+| - User ID         |       | - Package ID      |
+| - Name            |       | - Destination     |
+| - Email           |       | - Duration        |
+| - Password        |       | - Price           |
+|                   |       | - Description     |
+|                   |       +-------------------+
++-------------------+                |
+                                    |
+                                    | Package Inquiry
+                                    |
+                                    V
+                           +-------------------+
+                           |     Inquiry       |
+                           +-------------------+
+                           | - Inquiry ID      |
+                           | - User ID         |
+                           | - Name            |
+                           | - Email           |
+                           | - Message         |
+                           +-------------------+
+                                    |
+                                    | Review and Rating
+                                    |
+                                    V
+                           +-------------------+
+                           |   Rate & Review   |
+                           +-------------------+
+                           | - Review ID       |
+                           | - User ID         |
+                           | - Package ID      |
+                           | - Rating          |
+                           | - Review          |
+                           +-------------------+

@@ -1,0 +1,22 @@
+Data Flow Description:
+
+Book a Package:
+
+Users initiate the booking process by selecting a package from the available options in the Packages table.
+The selected package details, along with user information, are recorded in the Book List table, creating a new booking entry.
+This data flow represents the action of a user confirming and finalizing their booking for a specific travel package.
+Package Inquiry:
+
+Users can inquire about specific packages by submitting inquiries through the website.
+Inquiry details, such as user contact information and message, are captured and stored in the Inquiry table.
+This data flow enables users to seek additional information or clarification regarding travel packages before making a booking decision.
+Review and Rating:
+
+After experiencing a travel package, users have the option to provide feedback by submitting reviews and ratings.
+User feedback, including the package ID, rating, and review text, is collected and stored in the Rate & Review table.
+This data flow facilitates the generation of user-generated content, which can influence future travelers' decisions and improve overall service quality.
+Overall Data Flow:
+
+The data flow within the tourism management system revolves around facilitating user interactions with travel packages offered by the platform.
+Users can initiate bookings, seek information through inquiries, and contribute feedback through reviews and ratings.
+These interactions contribute to a dynamic ecosystem where users actively engage with available travel services, enhancing their overall experience and informing future decisions.
